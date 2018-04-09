@@ -1,0 +1,4 @@
+SELECT
+  count(*)
+FROM
+  customers
