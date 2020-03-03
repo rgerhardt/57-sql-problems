@@ -10,7 +10,7 @@ INNER JOIN
 INNER JOIN
   order_details od on o.orderid = od.orderid
 WHERE
-  date_part('year', o.orderdate) = 1998
+  date_part('year', o.orderdate) = 2016
 GROUP BY
   c.customerid, c.companyname, o.orderid
 HAVING
